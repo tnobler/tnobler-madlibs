@@ -55,7 +55,7 @@ body {
         
     }
     &__border {
-        -webkit-clip-path: polygon(0 0, 100% 0%, 100% 25%, 0 50%);
+        -webkit-clip-path: polygon(0 48%, 100% 23%, 100% 25%, 0 50%);
         clip-path: polygon(0 48%, 100% 23%, 100% 25%, 0 50%);
         
         z-index: -10;
@@ -66,6 +66,22 @@ body {
         width: 100vw;
         background-color: #00CB79;
         
+    }
+    color: white;
+    font-family: 'Montserrat';
+    text-align: center;
+    h1 {
+        font-size: 36px;
+        font-weight: 500;
+        line-height: 44px;
+    }
+
+    p {
+        color: rgba(255, 255, 255, 0.75);
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 19px;
+        width: 403px;
     }
 }
 
